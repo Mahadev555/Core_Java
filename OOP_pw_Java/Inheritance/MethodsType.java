@@ -34,6 +34,9 @@ class cargoplane{
 }
 
 public class MethodsType {
-
+    public static void main(String[] args) {
+        cargoplane c = new cargoplane();
+        c.speed();
+    }
 
 }
