@@ -3,6 +3,9 @@ package InterfaceLambdaFunction;
 
 interface A {
     void show();
+   default void defaultM(){
+       System.out.println("cll");
+    }
 }
 
 interface B{
